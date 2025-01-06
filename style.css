@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     background-color: #171515;
@@ -14,6 +20,7 @@ body {
 
 h2{
    padding-top: 20px;
+   margin-bottom: 20px;
 }
 #upper {
     background-color: #6943ff;
@@ -29,7 +36,6 @@ h2{
     width: 100px;
     height: 70px;
     font-size: 50px;
-    box-sizing: border-box;
     border: 2px solid #B295ff;
     background-color: #6943ff;
     border-radius: 4px;
@@ -49,6 +55,7 @@ h3{
 
 p{
     color: #353535;
+    padding: 20px;
 }
 #btn {
     margin: 20px;
@@ -61,7 +68,7 @@ p{
 
 #clear {
     margin: 20px;
-    padding: 11px 22px;
+    padding: 11px 30px;
     border-radius: 5px;
     border: none;
     font-weight: bold;
@@ -73,4 +80,5 @@ p{
     height: 108px;
     margin: auto;
     background-color: #ffffff;
+    margin: 25px ;
 }
